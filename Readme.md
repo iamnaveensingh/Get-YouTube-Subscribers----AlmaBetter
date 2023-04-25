@@ -14,7 +14,6 @@ The main purpose of this project is to provide a starting point for building a l
   - [Installation](#installation)
   - [Features](#features)
   - [Dependencies](#dependencies)
-  - [Contributing](#contributing)
   - [Documentation](#documentation)
   - [API Endpoints](#api-endpoints)
   - [Demo](#demo)
