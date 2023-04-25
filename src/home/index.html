@@ -31,8 +31,9 @@
       margin: 0px 100px;
     }
     li{
-      margin: 20px;
+      margin: 30px;
       font-size: x-large;
+      line-height: 1.6;
     }
     .linkedin{
       color: white;
@@ -52,6 +53,16 @@
       background-color: blue;
       
     }
+    @media only screen and (max-width: 768px) {
+      .container{
+      margin: 0px 10px;
+    }
+    body {
+      /* background: rgb(8, 1, 116);
+      background: linear-gradient(126deg, rgba(8, 1, 116, 1) 0%, rgba(4, 144, 53, 1) 53%, rgba(21, 216, 255, 1) 100%); */
+      height: 100%;
+    }
+    }
   </style>
 </head>
 
@@ -67,7 +78,7 @@
     <ul>
       <li>Add <a class="routes" href="/subscribers">/subscribers</a> in URL : Provides an array of all subscribers in the database.
       </li>
-      <li>Add <a class="routes" href="/subscribers/names">/subscribers/names</a>in URL  : Provides an array of subscribers with only two fields name and subscribedChannel
+      <li>Add <a class="routes" href="/subscribers/names">/subscribers/names</a> in URL  : Provides an array of subscribers with only two fields name and subscribedChannel
       </li>
       <li>Add <a class="routes" href="/subscribers/64480ca582addf25ac622b28">/subscribers/:id</a> in URL: Provides the details of a subscriber with the given ID.
       </li>
