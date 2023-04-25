@@ -17,9 +17,7 @@ The main purpose of this project is to provide a starting point for building a l
   - [Contributing](#contributing)
   - [Documentation](#documentation)
   - [API Endpoints](#api-endpoints)
-  - [Authors](#authors)
   - [Demo](#demo)
-  - [License](#license)
   - [Badges](#badges)
 
 ## Installation
